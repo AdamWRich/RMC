@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Masonry Contractors, Inc.</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:wght@200;700&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="top">
+        <header>
+
+            <div class="navbar">
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#work'>Work</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </div>
+        </header>
+        <section id='home' class="Home">
+            <div class="logo">
+                <img src="imgs/RMC logo.png" alt="Rich Masonry logo">
+            </div>
+            <h1 class="section__title section__title--main">
+                Rich Masonry Contractors, Inc.
+            </h1>
+            <h2 class="section__subtitle section__subtitle--main">
+                Serving Volusia & surrounding counties
+            </h2>
+        </section>
+        <section id='work' class="Work">
+            <div class="work_text">
+                <h1 class="section__title section__title--Work">
+                    What We Do
+                </h1>
+                <p>Rich Masonry was founded by Jerry Rich in "year" and has thrived in Volusia county ever since! The company is now co-run by Jerry's sons Randy & Mike.</p>
+                <p>We are a small crew that stays extremely busy, but pride ourselves on our quality of work. Rich Masonry has built a rapoor that continues to get us work on custom homes, commercial jobs, and community projects!</p>
+                <p>Most of our jobs are either block buildings/homes or stone facades (on fronts of homes, columns, fireplaces, and more!).</p>
+            </div>
+            <div class="carousel">
+                <!-- img1 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="imgs/concrete.jpg" style="width:100%">
+                    <div class="text">Concrete pour</div>
+                </div>
+                <!-- img2 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="imgs/stone.jpg" style="width:100%">
+                    <div class="text">Stone with joints</div>
+                </div>
+                <!-- img3 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="imgs/white brick.jpg" style="width:100%">
+                    <div class="text">White brick wall</div>
+                </div>
+                <!-- butttons -->
+                <div class=slide_buttons>
+                    <a class="prev" onclick="plusSlides(-1)"><</a>
+                    <a class="next" onclick="plusSlides(1)">></a>
+                    <!-- The dots/circles -->
+                </div>
+                <div class="dots">
+                    <div class="dot" onclick="currentSlide(1)"></div>
+                    <div class="dot" onclick="currentSlide(2)"></div>
+                    <div class="dot" onclick="currentSlide(3)"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="bottom">
+        <section id='contact' class="Contact">
+            <h1 class="section__title section__title--contact">
+                Contact Us!
+            </h1>
+            <div class="section__subtitle section__subtitle--contact">
+                <h2>Please use either method below to reach out to us.</h2>
+                <h2>We will do our best to return your message quickly!</h2>
+            </div>
+            
+            <div class="contact__methods">
+                <div class="contact__method_1">
+                    <h2>Email</h2>
+                    <a href="mailto:richmasonry@gmail.com">richmasonry@gmail.com</a>
+                </div>
+                <div class="contact__method_2">
+                    <h2>Call</h2>
+                    <a href="tel:386-767-2041">(386)767-2041</a>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <p>© Adam Rich, 2022</p>
+        </div>
+        <script src="script.js"></script>
+    </section>
+</body>
+    </html>
